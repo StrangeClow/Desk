@@ -1,0 +1,3226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>desk商城</title>
+		<meta name="description" content="desk">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
+        <!-- All css files are included here. -->
+        <!-- Bootstrap -->
+        <link rel="stylesheet"  href="../css/bootstrap.min.css"/>
+        <!-- This core.css file contents all plugings css file. -->
+        <link rel="stylesheet"  href="../css/core.css"/>
+        <!-- Theme shortcodes/elements style -->
+		<link rel="stylesheet" href="../css/shortcode/shortcodes.css">
+		<!-- Theme main style -->
+		<link rel="stylesheet" href="../css/style.css">
+		<!-- Responsive css -->
+		<link rel="stylesheet" href="../css/responsive.css">
+		<!-- User style -->
+		<link rel="stylesheet" href="../css/custom.css">
+		
+		<!-- Modernizr JS -->
+		<script src="../js/modernizr-2.8.3.min.js"></script>
+	</head>
+	<body>
+	 <!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->  
+		<!-- header start -->	
+		<header class="header-pos">
+			<div class="header-area header-middle">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-2 col-sm-3 col-xs-12">
+							<div class="logo">
+								<a href="Base.html">
+									<img src="../img/logo/logo.jpg" alt="粗不来" />
+								</a>
+							</div>
+						</div>
+						<div class="col-md-10 col-sm-9 col-xs-12 text-right xs-center">
+							<div class="main-menu display-inline hidden-sm hidden-xs">
+								<nav>
+									<ul>
+										<li><a href="Base.html">首   页</a></li>
+										<li><a href="Shop.html">沙   发</a></li>
+										<li><a href="Blog.html">特   性</a></li>
+										<li><a href="Shop.html">商   城</a></li>
+										<li><a href="Product-detail.html">主   页 </a></li>
+										<li><a href="Cart.html">新    闻</a></li>
+									</ul>
+								</nav> 
+							</div>
+							<div class="search-block-top display-inline">
+								<div class="icon-search"></div>
+								<div class="toogle-content">
+								<form action="#" id="searchbox">
+									<input type="text" placeholder="搜索" />
+									<button class="button-search"></button>
+								</form>
+								</div>
+							</div>
+						<div class="shopping-cart ml-20 display-inline">
+							<a href="Cart.html"><b>购  物    车 </b> (2)</a>
+							<ul>
+								<li>
+									<div class="cart-img">
+										<a href="#"><img src="../img/cart/1.jpg" alt="b" /> </a>
+									</div>
+									<div class="cart-content">
+									<h3><a href="#"> 1 X  迷失... </a></h3>
+									<span><b>S, 橙  </b></span>
+									<span class="cart-price">￥ 16.84</span>
+									</div>
+									<div class="cart-del">
+										<i class="fa fa-times-circle"></i>
+									</div>
+								</li>
+								<li>
+									<div class="cart-img">
+										<a href="#"><img src="../img/cart/1.jpg" alt="b" /> </a>
+									</div>
+									<div class="cart-content">
+									<h3><a href="#"> 1 X  迷失... </a></h3>
+									<span><b>S, 橙  </b></span>
+									<span class="cart-price">￥ 16.84</span>
+									</div>
+									<div class="cart-del">
+										<i class="fa fa-times-circle"></i>
+									</div>
+								</li>
+								<li>
+									<div class="shipping">
+										<span class="f-left">打   折</span>
+										<span class="f-right cart-price">￥ 7.00</span>
+									</div>
+									<hr class="shipping-border" />
+									<div class="shipping">
+										<span class="f-left">总   价</span>
+										<span class="f-right cart-price">￥ 693.00</span>
+									</div>
+								</li>
+								<li class="checkout m-0">
+									<a href="#">请 查 收 <i class="fa fa-angle-right"></i> </a>
+								</li>
+							</ul>
+						</div>
+						<div class="setting-menu display-inline">
+							<div class="icon-nav current"></div>
+							<ul class="content-nav toogle-content">
+								<li class="currencies-block-top">
+									<div class="current"><b>当前价格 ：人民币</b></div>
+								<ul>
+									<li><a href="#">人民币 (￥)</a></li>
+									<li><a href="#">美    元 ($)</a></li>
+								</ul>
+							</li>
+							<li class="currencies-block-top">
+								<div class="current"><b>英 文</b></div>
+								<ul>
+									<li><a href="#">人民币 (￥)</a></li>
+									<li><a href="#">美    元 ($)</a></li>
+								</ul>
+							</li>
+							<li class="currencies-block-top">
+								<div class="current"><b>我的    账户</b></div>
+								<ul>
+									<li><a href="#">我的   账户</a></li>
+									<li><a href="#">我的    零花钱</a></li>
+									<li><a href="#">检     查</a></li>
+									<li><a href="#">登     录</a></li>
+								</ul>
+							</li>
+							</ul>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			 <div class="mobile-menu-area visible-sm visible-xs">
+			 	<div class="container-fluid">
+			 		<div class="row">
+			 			<div class="col-md-12">
+			 				<div class="mobile-menu">
+			 					<nav id="mobile-menu-active">
+			 						<ul>
+			 							<li><a href="Base.html">首   页</a></li>
+										<li><a href="Shop.html">沙   发</a></li>
+										<li><a href="Blog.html">特   性</a></li>
+										<li><a href="Shop.html">商   城</a></li>
+										<li><a href="Product-detail.html">主   页 </a></li>
+										<li><a href="Cart.html">新    闻</a></li>
+			 						</ul>
+			 					</nav>
+			 				</div>
+			 			</div>
+			 		</div>
+			 	</div>
+			 </div>
+		</header>
+		<!-- header end -->
+      <!-- slider-container start -->
+      <div class="slider-container">
+      	<!-- Slider Image -->
+      	<div id="mainSlider" class="nivoSlider slider-image">
+      		<img src="../img/slider/1.jpg" alt="b" title="#htmlcaption1" />
+      		<img src="../img/slider/2.jpg" alt="b" title="#htmlcaption2" />
+      	</div>
+      	<!-- Slider Caption 1 -->
+      	<div id="htmlcaption1" class="nivo-html-caption slider-caption-1">
+      		<div class="container">
+      			<div class="slide1-text">
+      				<div class="middle-text">
+      					<div class="cap-dec cap-1 wow bounceInRight" data-wow-duration="0.9s" data-wow-delay="0s">
+						 <h2>I LOVE DESK</h2>
+					    </div>
+					    <div class="cap-dec cap-2 wow bounceInRight" data-wow-duration="1.2s" data-wow-delay="0.2s">
+							<h2>燕     南     雨      出      狩</h2>
+						</div>
+						<div class="cap-text wow bounceInRight" data-wow-duration="1.2s" data-wow-delay="0.3s">
+						  我知道 那些夏天 就像青春一样一去回不来   让我困在城市里纪念你   一直往南方开不会太久  你回家了我再等你
+						</div>
+						<div class="cap-readmore wow bounceInUp" data-wow-duration="1.3s" data-wow-delay=".5s">
+							<a href="#">购      物</a>
+						</div>
+      				</div> 
+      			</div>
+      		</div>
+      	</div>
+      	
+      	<!-- Slider Caption 2 -->
+      	<div id="htmlcaption2" class="nivo-html-caption slider-caption-2">
+      		<div class="container">
+      			<div class="slide1-text">
+      				<div class="middle-text">
+      					<div class="cap-dec cap-1 wow bounceInRight" data-wow-duration="0.9s" data-wow-delay="0s">
+							<h2>I LOVE DESK</h2>
+						</div>	
+						<div class="cap-dec cap-2 wow bounceInRight" data-wow-duration="1.2s" data-wow-delay="0.2s">
+							<h2>燕     南     雨      出      狩</h2>
+						</div>	
+						<div class="cap-text wow bounceInRight" data-wow-duration="1.2s" data-wow-delay="0.3s">
+							和你有关   观后无感  若是真的 敢问自己  何来脆弱   劝人离散    有多为难    若美丽的故事来的太快  所以到哪里就像快乐被燃气
+						</div>
+						<div class="cap-readmore wow bounceInUp" data-wow-duration="1.3s" data-wow-delay=".5s">
+							<a href="#">购      物</a>
+						</div>	
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+      <!-- slider-container end -->
+	  <!-- banner-area start -->
+	  <div class="banner-area pt-70">
+	  	<div class="container">
+	  		<div class="row">
+	  			<div class="col-md-6 col-sm-6">
+	  				<div class="single-banner">
+	  					<a href="#"><img src="../img/banner/1.jpg" alt="b" /> </a>
+	  				</div>
+	  			</div>
+	  			<div class="col-md-6 col-sm-6">
+	  				<div class="single-banner">
+	  					<a href="#"><img src="../img/banner/2.jpg" alt="b" /> </a>
+	  				</div>
+	  			</div>
+	  		</div>
+	  	</div>
+	  </div>
+	  <!-- banner-area end -->
+     <!-- new-arrival-area start -->
+     <div class="new-arrival-area pt-100">
+     	<div class="container">
+     		<div class="row">
+     			<div class="section-title text-center mb-20">
+     				<h2>新            品             上           架    </h2>
+     			</div>
+     		</div>
+     		<div class="row">
+     			<div class="col-md-12">
+     				<div class="product-tab">
+     					<!-- Nav tabs -->
+     					<ul class="custom-tab text-center mb-40">
+							<li class="active"><a href="#home" data-toggle="tab">沙  发</a></li>
+							<li><a href="#profile" data-toggle="tab"> 椅    桌   </a></li>
+							<li><a href="#messages" data-toggle="tab"> 面     板   </a></li>
+							<li><a href="#settings" data-toggle="tab"> 热     卖   </a></li>
+							<li><a href="#new" data-toggle="tab">  新        闻   </a></li>
+						</ul>
+						<!-- Tab panes -->
+						<div class="row">
+							<div class="tab-content">
+								<div class="tab-pane active" id="home">
+									<div class="product-carousel">
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/12.jpg"  alt="b"/> </a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/11.jpg" alt="b" /> </a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/3.jpg" alt="b" /> </a>
+													<span class="new-label">新   货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/1.jpg" alt="#" /> </a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/4.jpg" alt="b" /> </a>
+													<span class="new-label">新   货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/11.jpg" alt="b" /></a>
+													<span class="new-label">新   货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/5.jpg" alt="b" /> </a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+														    <span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/10.jpg" alt="b" /> </a>
+													<span class="new-label">新   货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+														    <span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/5.jpg" alt="b" /> </a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+														    <span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/9.jpg" alt="b" /> </a>
+													<span class="new-label">新   货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+														    <span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/6.jpg" alt="b" /> </a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+														    <span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/9.jpg" alt="b" /> </a>
+													<span class="new-label">新   货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+														    <span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /> </a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+														    <span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /> </a>
+													<span class="new-label">新   货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+														    <span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane" id="profile">
+									<div class="product-carousel">
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/12.jpg"  alt="b"/> </a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+														    <span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/11.jpg" alt="b" /> </a>
+													<span class="new-label">新   货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新    品    上      市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+														    <span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										
+										<div class="col-md-12">
+										<div class="product-wrapper mb-40">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/10.jpg" alt="b" /></a>
+												<span class="new-label">新   货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="product-wrapper mb-40 mrg-nn-xs">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/1.jpg" alt="b" /></a>
+												<span class="new-label">新     货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+										
+										<div class="col-md-12">
+										<div class="product-wrapper mb-40">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/9.jpg" alt="b" /></a>
+												<span class="new-label">新   货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="product-wrapper mb-40 mrg-nn-xs">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+												<span class="new-label">新      货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+										
+									<div class="col-md-12">
+										<div class="product-wrapper mb-40">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+												<span class="new-label">新   货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="product-wrapper mb-40 mrg-nn-xs">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+												<span class="new-label">新     货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
+									
+									<div class="col-md-12">
+										<div class="product-wrapper mb-40">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/6.jpg" alt="b" /></a>
+												<span class="new-label">新   货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="product-wrapper mb-40 mrg-nn-xs">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/5.jpg" alt="b" /></a>
+												<span class="new-label">新      货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-md-12">
+										<div class="product-wrapper mb-40">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/2.jpg" alt="b" /></a>
+												<span class="new-label">新   货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="product-wrapper mb-40 mrg-nn-xs">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/2.jpg" alt="b" /></a>
+												<span class="new-label">New</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-md-12">
+										<div class="product-wrapper mb-40">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/1.jpg" alt="b" /></a>
+												<span class="new-label">新   货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="product-wrapper mb-40 mrg-nn-xs">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+												<span class="new-label">新      货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								   </div>
+								</div>
+								
+								<div class="tab-pane" id="messages">
+									<div class="product-carousel">
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/4.jpg" alt="b" /> </a>
+													<span class="new-label">新   货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/11.jpg" alt="b" /></a>
+													<span class="new-label">新  货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/12.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/2.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/3.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/1.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/5.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/10.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/6.jpg" alt="b" /></a>
+													<span class="new-label">新      货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/9.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/12.jpg" alt="b" /></a>
+													<span class="new-label">新      货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/2.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="tab-pane" id="settings">
+									<div class="product-carousel">
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/6.jpg" alt="b" /> </a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+														    <span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/5.jpg" alt="b" /> </a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="tab-pane" id="new">
+								<div class="product-carousel">
+									<div class="col-md-12">
+										<div class="product-wrapper mb-40">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/2.jpgu" alt="b" /></a>
+												<span class="new-label">新       货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新    货    上     市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="product-wrapper mb-40 mrg-nn-xs">
+											<div class="product-img">
+												<a href="#"><img src="../img/product/10.jpg" alt="b" /></a>
+												<span class="new-label">新    货</span>
+												<div class="product-action">
+													<a href="#"><i class="pe-7s-cart"></i></a>
+													<a href="#"><i class="pe-7s-like"></i></a>
+													<a href="#"><i class="pe-7s-folder"></i></a>
+													<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+												</div>
+											</div>
+											<div class="product-content">
+												<div class="pro-title">
+													<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+												</div>
+												<div class="price-reviews">
+													<div class="price-box">
+														<span class="price product-price">￥ 262.00</span>
+														<span class="old-price product-price">￥ 362.00</span>
+													</div>
+													<div class="pro-rating">
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+														<a href="#"><i class="fa fa-star-o"></i></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+													<span class="new-label">新      货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+													<span class="new-label">新      货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+													<span class="new-label">新      货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+													<span class="new-label">新       货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+													<span class="new-label">新      货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+													<span class="new-label">新       货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<div class="product-wrapper mb-40">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/7.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上    市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="product-wrapper mb-40 mrg-nn-xs">
+												<div class="product-img">
+													<a href="#"><img src="../img/product/8.jpg" alt="b" /></a>
+													<span class="new-label">新    货</span>
+													<div class="product-action">
+														<a href="#"><i class="pe-7s-cart"></i></a>
+														<a href="#"><i class="pe-7s-like"></i></a>
+														<a href="#"><i class="pe-7s-folder"></i></a>
+														<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+													</div>
+												</div>
+												<div class="product-content">
+													<div class="pro-title">
+														<h3><a href="Product-details.html">新   货   上   市</a></h3>
+													</div>
+													<div class="price-reviews">
+														<div class="price-box">
+															<span class="price product-price">￥ 262.00</span>
+															<span class="old-price product-price">￥ 362.00</span>
+														</div>
+														<div class="pro-rating">
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+															<a href="#"><i class="fa fa-star-o"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+		     				</div>
+		     			</div>
+		     		</div>
+		     	</div>
+		     </div>
+		 </div>
+	 </div>	
+	 <!-- new-arrival-area end -->
+    <!-- newsletter-area start -->
+    <div class="newsletter-area bg-1 ptb-180">
+    	<div class="container">
+    		<div id="newsletter_block_left">
+    			<h4><span>登     录</span> 好   好    学     习   </h4>
+			    <p>让我再看你一遍 从南到北    请你在听一遍 关于那天    抱着和盒子的姑娘和擦汗的男人      </p>
+    		</div>
+    		<div class="row">
+    			<div class="col-lg-6 col-md-8">
+    				<div class="block_content mt-60">
+    					<form id="mc-form" class="mc-form form-group">
+    						<input id="mc-email" type="email" autocomplete="off" placeholder="您的邮箱" />
+    						<button id="mc-submit" type="submit"> 订         阅  </button>
+    					</form>
+    					<!-- mailchimp-alerts Start -->
+    					<div class="mailchimp-alerts text-centre">
+    						<div class="mailchimp-submitting"></div>
+    						<div class="mailchimp-success"></div>
+    						<div class="mailchimp-error"></div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    
+    <!-- best-sell-area start -->
+    <div class="best-sell-area pt-30">
+    	<div class="container">
+    		<div class="row">
+    			<div class="section-title text-center mb-50">
+    				<h2>热           卖         产          品</h2>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<div class="product-carousel">
+    				<div class="col-md-12">
+    					<div class="product-wrapper mb-40">
+    						<div class="product-img">
+    							<a href="#"><img src="../img/product/12.jpg" alt="b" /> </a>
+    							<span class="new-label">新    货</span>
+    							<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+    						</div>
+    						<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+    					</div>
+    					<div class="product-wrapper mb-40 mrg-nn-xs">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/2.jpg" alt="b" /></a>
+								<span class="new-label">新    货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新    货     上       市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+    				</div>
+    				
+    				<div class="col-md-12">
+						<div class="product-wrapper mb-40">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/9.jpg" alt="b" /></a>
+								<span class="new-label">新   货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-wrapper mb-40 mrg-nn-xs">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/4.jpg" alt="b" /></a>
+								<span class="new-label">新    货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上     市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+    				
+    				<div class="col-md-12">
+						<div class="product-wrapper mb-40">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/6.jpg" alt="b" /></a>
+								<span class="new-label">新   货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-wrapper mb-40 mrg-nn-xs">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/6.jpg" alt="b" /></a>
+								<span class="new-label">新    货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上     市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+    				
+    				<div class="col-md-12">
+						<div class="product-wrapper mb-40">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/5.jpg" alt="b" /></a>
+								<span class="new-label">新   货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-wrapper mb-40 mrg-nn-xs">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/5.jpg" alt="b" /></a>
+								<span class="new-label">新    货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上     市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+    				
+    				<div class="col-md-12">
+						<div class="product-wrapper mb-40">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/10.jpg" alt="b" /></a>
+								<span class="new-label">新   货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-wrapper mb-40 mrg-nn-xs">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/11.jpg" alt="b" /></a>
+								<span class="new-label">新    货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上     市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+    				
+    				<div class="col-md-12">
+						<div class="product-wrapper mb-40">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/10.jpg" alt="b" /></a>
+								<span class="new-label">新   货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-wrapper mb-40 mrg-nn-xs">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/4.jpg" alt="b" /></a>
+								<span class="new-label">新    货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上     市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+    				
+    				<div class="col-md-12">
+						<div class="product-wrapper mb-40">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/10.jpg" alt="b" /></a>
+								<span class="new-label">新   货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上    市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-wrapper mb-40 mrg-nn-xs">
+							<div class="product-img">
+								<a href="#"><img src="../img/product/11.jpg" alt="" /></a>
+								<span class="new-label">新    货</span>
+								<div class="product-action">
+									<a href="#"><i class="pe-7s-cart"></i></a>
+									<a href="#"><i class="pe-7s-like"></i></a>
+									<a href="#"><i class="pe-7s-folder"></i></a>
+									<a href="#" data-toggle="modal" data-target="#productModal"><i class="pe-7s-look"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="pro-title">
+									<h3><a href="Product-detail.html">新   货    上     市</a></h3>
+								</div>
+								<div class="price-reviews">
+									<div class="price-box">
+										<span class="price product-price">￥ 262.00</span>
+										<span class="old-price product-price">￥ 362.00</span>
+									</div>
+									<div class="pro-rating">
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+										<a href="#"><i class="fa fa-star-o"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!-- latest-blog-area start -->
+    <div class="latest-blog-area ptb-60">
+	<div class="container">
+		<div class="row">
+			<div class="section-title text-center mb-50">
+				<h2>最   近    博    客</h2> 
+			</div>
+		</div>			
+		<div class="row">
+			<div class="blog-active">
+				<div class="col-lg-12">
+					<div class="blog-wrapper mb-40">
+						<div class="blog-img">
+							<a href="#"><img src="../img/blog/case.jpeg" alt="b" width="570px" height="300px" /></a>
+						</div>
+						<div class="blog-info">
+							<h3><a href="#">你  的  想  法  是  什  么   呢...</a></h3>
+							<div class="blog-meta">
+								<span class="f-left">2017-04-20 21:50:35</span>
+								<span class="f-right"><a href="#">阅  读   更     多   </a></span>
+							</div>
+						</div>
+					</div>				
+				</div>
+				<div class="col-lg-12">
+					<div class="blog-wrapper mb-40">
+						<div class="blog-img">
+							<a href="#"><img src="../img/blog/case.jpeg" alt="b" width="570px" height="300px" /></a>
+						</div>
+						<div class="blog-info">
+							<h3><a href="#">开   始  记  录  的  你  的  日  志 ...</a></h3>
+							<div class="blog-meta">
+								<span class="f-left">2017-04-20 21:50:35</span>
+								<span class="f-right"><a href="#">阅  读   更     多  </a></span>
+							</div>
+						</div>
+					</div>				
+				</div>
+				<div class="col-lg-12">
+					<div class="blog-wrapper mb-40">
+						<div class="blog-img">
+							<a href="#"><img src="../img/blog/1.jpg" alt="b" /></a>
+						</div>
+						<div class="blog-info">
+							<h3><a href="#">回   答   你  的  相  关  问   题...</a></h3>
+							<div class="blog-meta">
+								<span class="f-left">2017-04-20 21:50:35</span>
+								<span class="f-right"><a href="#">阅  读   更     多  </a></span>
+							</div>
+						</div>
+					</div>				
+				</div>
+				<div class="col-lg-12">
+					<div class="blog-wrapper mb-40">
+						<div class="blog-img">
+							<a href="#"><img src="../img/blog/2.jpg" alt="b" /></a>
+						</div>
+						<div class="blog-info">
+							<h3><a href="#">分  享   你  的  爱  去  那    里   1.6</a></h3>
+							<div class="blog-meta">
+								<span class="f-left">2017-04-20 21:50:35</span>
+								<span class="f-right"><a href="#">阅  读   更     多 </a></span>
+							</div>
+						</div>
+					</div>				
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+  
+  <!-- brand-area start -->
+  
+  <div class="brand-area">
+  	<div class="container">
+  		<div class="brand-sep pt-50">
+  			<div class="row">
+  				<div class="brand-active">
+  					<div class="col-lg-12">
+  						<div class="single-brand">
+  							<a href="#"><img src="../img/brand/1.jpg" alt="b" /> </a>
+  						</div>
+  					</div>
+  					<div class="col-lg-12">
+  						<div class="single-brand">
+  							<a href="#"><img src="../img/brand/2.jpg" alt="b" /> </a>
+  						</div>
+  					</div>
+  					<div class="col-lg-12">
+  						<div class="single-brand">
+  							<a href="#"><img src="../img/brand/3.jpg" alt="b" /> </a>
+  						</div>
+  					</div>
+  					<div class="col-lg-12">
+  						<div class="single-brand">
+  							<a href="#"><img src="../img/brand/4.jpg" alt="b" /> </a>
+  						</div>
+  					</div>
+  					<div class="col-lg-12">
+  						<div class="single-brand">
+  							<a href="#"><img src="../img/brand/5.jpg" alt="b" /> </a>
+  						</div>
+  					</div>
+  					<div class="col-lg-12">
+  						<div class="single-brand">
+  							<a href="#"><img src="../img/brand/1.jpg" alt="b" /> </a>
+  						</div>
+  					</div>
+  					<div class="col-lg-12">
+  						<div class="single-brand">
+  							<a href="#"><img src="../img/brand/2.jpg" alt="b" /> </a>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+  
+  <!-- service-area start -->
+  <div class="service-area pt-70 pb-40 gray-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-service mb-30">
+                            <div class="service-icon">
+                                <i class="pe-7s-world"></i>
+                            </div>
+                            <div class="service-title">
+                                <h3>折   扣    商     品</h3>
+                                <p>所    有    的   商   品   折   扣   订    单  </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-service mb-30">
+                            <div class="service-icon">
+                                <i class="pe-7s-refresh"></i>
+                            </div>
+                            <div class="service-title">
+                                <h3>自    由    交     换</h3>
+                                <p>30 天   无   理    由    退     货</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-service mb-30 sm-mrg">
+                            <div class="service-icon">
+                                <i class="pe-7s-headphones"></i>
+                            </div>
+                            <div class="service-title">
+                                <h3>联    系    我     们</h3>
+                                <p>我  们  二  十  四  小  时  在    线</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-service mb-30 xs-mrg sm-mrg">
+                            <div class="service-icon">
+                                <i class="pe-7s-gift"></i>
+                            </div>
+                            <div class="service-title">
+                                <h3>爆 仓 大 甩 卖</h3>
+                                <p>天    天    打     折    惊    喜   不    断</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div> 
+	<!-- service-area end -->
+  
+  <!-- footer start -->
+ <footer class="black-bg">
+  	<div class="footer-top-area ptb-60">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-3 col-sm-4">
+  					<div class="footer-widget">
+  						<h3 class="footer-title">联   系    我     们</h3>
+  						<div class="footer-contact">
+  							<ul>
+								<li><em class="fa fa-map-marker"></em>好 好 学 习<span>天    天     向    上</span></li>
+								<li><em class="fa fa-phone"></em>Telephones: (+1) 866-540-3229 <span>Fax: (+1) 866-540-3229</span></li>
+								<li><em class="fa fa-envelope-o"></em>Email: 666556@xy.com</li>
+							</ul>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="col-md-2 col-sm-4">
+  					<div class="footer-widget">
+  						<h3 class="footer-title">我 的      账 户</h3>
+  						<ul class="block-content">
+							<li><a href="#">我  的  订    单   </a></li>
+							<li><a href="#">我  的    万   能    发  票</a></li>
+							<li><a href="#">邮     票</a></li>
+							<li><a href="#">我  的  地    址</a></li>
+							<li><a href="#">我  的   个  人  信   息</a></li>	
+						</ul>	
+  					</div>
+  				</div>
+  				<div class="col-md-2 col-sm-4">
+					<div class="footer-widget">
+						<h3 class="footer-title">获  取   信    息</h3>
+						<ul class="block-content">
+							<li><a href="#">联   系    我    们</a></li>
+							<li><a href="#">账    户</a></li>
+							<li><a href="#">地     图</a></li>
+							<li><a href="#">关  于    我     们</a></li>	
+							<li><a href="#">客   户   服  务   小   组</a></li>									
+						</ul>							
+					</div>					
+				</div>
+				<div class="col-md-2 col-sm-4 footer-sm">
+					<div class="footer-widget">
+						<h3 class="footer-title">我  们   的  服   务</h3>
+						<ul class="block-content">
+							<li><a href="#">我  的  预    定</a></li>
+							<li><a href="#">我   的  信   用  卡  信    息</a></li>
+							<li><a href="#">站    点</a></li>
+							<li><a href="#">我    的   地     址</a></li>
+							<li><a href="#">我    的   个    人   隐    私</a></li>	
+						</ul>							
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-4 footer-sm">
+					<div class="footer-widget">
+						<h3 class="footer-title">营    业   时    间</h3>
+						<div class="footer-time">
+							<p><span class="ft-content"><span class="day">周    一    - 周     五</span><span class="time">9:00 - 22:00</span></span></p>
+							<p><span class="ft-content"><span class="day">周        二   </span><span class="time">10:00 - 24:00</span></span></p>
+							<p><span class="ft-content"><span class="day">周         三  </span><span class="time">12:00 - 24:00</span></span></p>
+							<p><span class="ft-content"><span class="day">周         四   </span><span class="time">免 费  大  清      仓</span></span></p>
+							<p><span class="ft-content"><span class="day">周         五   </span><span class="time">优     惠    30%</span></span></p>
+						</div>							
+					</div>					
+				</div>
+  			</div>
+  		</div>
+  	</div>
+  	
+  	<!-- footer-bootom-area start -->
+  	<div class="footer-bootom-area ptb-15">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-6 col--sm-6 col-xs-12">
+  					<div class="copyright">
+  						<p>Copyright &copy; 2017.说   着   分   携   泪   暗    流.<a target="_blank" href="http://#/">沉  迷  学   习  无   法    自     拔</a></p>
+					</div>
+  				</div>
+  				<div class="col-md-6 col-sm-6 col-xs-12">
+  					<div class="payment">
+  						<img src="../img/payment.png" alt="b" />
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </footer>
+  <!-- footer end -->
+  
+  <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
+  	<div class="modal-dialog" role="document">
+  		<div class="modal-content">
+  			<div class="modal-header">
+  				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  					<span aria-hidden="true"></span>
+  				</button>
+  			</div>
+  			<div class="modal-body">
+  				<div class="modal-img">
+  					<a href="Shop.html"><img src="../img/product/1.jpg"  alt="b"/> </a>
+  				</div>
+  				<div class="modal-pro-content">
+  					<h3><a href="#">好好       学习      天天       向上</a> </h3>
+  					<div class="pro-rating">
+  						<i class="fa fa-star"></i>
+  						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+  					</div>
+  					<span >(10     访   问     量)</span>
+  					<div class="price">
+  						<span>￥ 70.00</span>
+  						<span class="old">￥ 80.11</span>
+  					</div>
+  					<p>今天传承   当代再造    文化传统   顶级返货       灿烂的文化与艺术绽放于一生  这就是你最想要的结果   </p>
+  					<form action="#">
+  						<input type="number" value="1" />
+  						<button>添加到   购物车</button>
+  					</form>
+  					<div class="product_meta">
+  						<span class="posted_in">
+  							<span class="posted_in">
+  								Categories: <a rel="tag" href="#">Albums</a>, 
+  								<a rel="tag" href="#">Music</a>
+  							</span> 
+  								<span class="tagged_as">Tags: <a rel="tag" href="#">Albums</a>,
+  									<a rel="tag" href="#">Music</a>
+  								</span> 
+					</div>
+					<div class="social">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-pinterest"></i></a>
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>   
+   
+  <!-- 工具包来袭 -->
+   <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+   <script src="../js/bootstrap.min.js" ></script>
+   <script src="../js/ajax-mail.js" ></script>
+   <script src="../js/owl.carousel.min.js" ></script>
+   <script src="../js/jquery.nivo.slider.pack.js" ></script>
+   <script src="../js/plugins.js" ></script>
+   <script src="../js/main.js" ></script>
+</body>
+</html>
